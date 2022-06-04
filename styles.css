@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top-container {
+    background-color: #1F2937 ;
+    padding: 20px;
+}
+
+.top-header {
+    display: flex;
+}
+
+.bottom-header{
+    display: flex;
+}
+
+.section1 {
+    
+}
+
+.section2 {
+    background-color: #E5E7EB;
+}
