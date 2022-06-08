@@ -1,26 +1,144 @@
-body {
+body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: #1F2937;
+    width: 100%;
 }
 
-.top-container {
-    background-color: #1F2937 ;
-    padding: 20px;
-}
+/* Nav Bar */
 
-.top-header {
+.nav-bar {
+    color:aliceblue;
     display: flex;
-}
-
-.bottom-header{
-    display: flex;
-}
-
-.section1 {
+    /* border: 2px solid white; */
     
 }
 
-.section2 {
+.nav-bar ul {
+    margin: 0px;
+    margin-left:auto ;
+    display: flex;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+ul a:hover {
+    color: lightgray;
+}
+
+/* header logo */
+
+#header-logo {
+    margin-left:20px;
+    width: 50px;
+}
+
+/* Header */
+.header {
+    color: #F9FAF9;
+   /* border: 2px solid lightblue; */
+    text-align: center;
+    font-size: 20px;
+    margin: 0 20px;
+    padding: 20px;
+    
+
+}
+
+#header-title {
+    font: 48px extra-bold;
+}
+
+#header-img{
+    width: 200px;
+    margin: 40px;
+}
+
+#header-btn {
+    background-color: #3882F6;
+    color: #F9FAF9 ;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: 2px solid #3882F6;
+
+
+}
+
+/* main container */
+.main-container {
+    background-color: white;
+    /* border: 2px solid yellow; */
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#section-header{
+    padding: 30px;
+    font:36px extra-bold;
+    color: #1F2937;
+}
+
+#image1 {
+width: 200px;
+}
+
+#image2 {
+    width: 200px;
+}
+
+#image3 {
+    width: 200px;
+}
+
+#image4 {
+    width: 200px;
+}
+
+/* Quote */
+.quote {
     background-color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+}
+
+#quote {
+    margin: 50px;
+}
+
+/* call to action */
+.bottom-container {
+    background-color: white;
+    border: 2px solid white;
+}
+
+#callToAction {
+    margin: 50px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 60px;
+
+}
+
+#callToActionBtn {
+    background-color: #3882F6;
+    padding: 5px 15px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* footer */
+.footer {
+    text-align: center;
+    color: white;
+    /* border: 2px solid white; */
 }
